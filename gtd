@@ -5,8 +5,8 @@ set -e
 # Command configuration
 CUSTOM_CMD="${CUSTOM_CMD:-"clear"}"
 MPD_CMD="${MPD_CMD:-"mpc -q toggle"}"
-NOTIFY_CMD="${NOTIFY_CMD:-"notify-send"}"
-SPEAK_CMD="${SPEAK_CMD:-"&>/dev/null espeak"}"
+NOTIFY_CMD="${NOTIFY_CMD:-"echo"}"
+SPEAK_CMD="${SPEAK_CMD:-"&>/dev/null say"}"
 
 # Setting configuration
 DEFAULT_WORK_LENGTH=${DEFAULT_WORK_LENGTH:-15}
