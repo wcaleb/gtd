@@ -10,7 +10,7 @@ SPEAK_CMD="${SPEAK_CMD:-"&>/dev/null say"}"
 
 # Setting configuration
 DEFAULT_WORK_LENGTH=${DEFAULT_WORK_LENGTH:-15}
-NOTIFY_WORK="${NOTIFY_WORK:-"\"Get things done.\""}"
+NOTIFY_WORK="${NOTIFY_WORK:-"\"Back to work.\""}"
 NOTIFY_BREAK="${NOTIFY_BREAK:-"\"Take a break.\""}"
 SPEAK_WORK="${SPEAK_WORK:-"$NOTIFY_WORK"}"
 SPEAK_BREAK="${SPEAK_BREAK:-"$NOTIFY_BREAK"}"
